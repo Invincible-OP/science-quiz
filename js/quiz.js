@@ -261,10 +261,10 @@ function show(count) {
     question.innerHTML = `
     <h2>${questions[count].question}</h2>
      <ul class="option_group">
-    <li class="option">${first}</li>
-    <li class="option">${second}</li>
-    <li class="option">${third}</li>
-    <li class="option">${fourth}</li>
+    <li class="option">${first}</li><br><br>
+    <li class="option">${second}</li><br><br>
+    <li class="option">${third}</li><br><br>
+    <li class="option">${fourth}</li><br><br>
   </ul> 
     `;
     toggleActive();

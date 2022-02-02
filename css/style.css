@@ -73,6 +73,9 @@ body {
 }
 
 .option {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
   width: 170px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -142,4 +145,9 @@ body {
   height: 50px;
   background-color: rgb(229, 107, 253);
   color: black;
+}
+
+#eng {
+  display: flex;
+  flex-wrap: wrap;
 }
